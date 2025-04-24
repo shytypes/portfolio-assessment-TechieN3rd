@@ -1,10 +1,79 @@
-/* remove default browser spacing*/
+/* Reset */
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/*title text style*/
-/* the font-family 'JetBrains Mono', has been linked
- * and is available for your use
- * */
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  padding: 2em;
+  max-width: 900px;
+  margin: auto;
+}
+
+a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 2px solid #00ffff;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+  color: #00ffff;
+}
+
+.header .subtitle {
+  font-size: 1.1em;
+  color: #bbb;
+}
+
+.contact {
+  margin-top: 0.8em;
+  font-size: 0.95em;
+}
+
+.section-title {
+  color: #00ffff;
+  font-size: 1.4em;
+  margin-top: 2em;
+  border-bottom: 1px solid #00ffff;
+  padding-bottom: 0.3em;
+}
+
+ul {
+  padding-left: 1.2em;
+  list-style-type: square;
+  margin-top: 0.5em;
+}
+
+.column-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+
+.summary {
+  background-color: #2a2a2a;
+  padding: 1em;
+  border-left: 4px solid #00ffff;
+  margin-bottom: 2em;
+}
+
+.passport {
+  width: 130px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
